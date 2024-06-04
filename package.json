@@ -4,13 +4,14 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
+    "start": "node ./dist/server/entry.mjs",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
+    "@astrojs/node": "^8.2.5",
     "@astrojs/tailwind": "^5.1.0",
     "@iconify-json/carbon": "^1.1.34",
     "astro": "^4.9.2",
