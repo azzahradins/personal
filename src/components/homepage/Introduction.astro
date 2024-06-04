@@ -1,0 +1,35 @@
+---
+import { Icon } from 'astro-icon/components'
+
+---
+<div class="flex flex-row gap-4">
+  <section class="hidden md:block glass">
+    <img src="/personal.jpg" class="w-16 h-16 md:w-36 md:h-36 rounded-md border-4 shadow-inner border-[#4682A9] border-opacity-50"/>
+  </section>
+  <section class="flex flex-col justify-between flex-1 gap-2 md:glass">
+    <div class="flex flex-col justify-between w-full text-center md:text-left">
+        <h1 class="prose-4xl text-4xl font-bold mb-1 bg-gradient-to-tl from-[#4682A9] to-slate-800 bg-clip-text text-transparent">
+          Azzahra Dinda
+        </h1>
+        <p class="prose-p max-w-[60ch]">
+          A women in tech that currently active developing software as a form of solving problem.
+        </p>
+    </div>
+
+    <div class="flex flex-row gap-2 self-center md:self-start text-slate-800">
+      <span class=" bg-blue-200 border-2 bg-opacity-30 p-0.5 border-blue-700 border-opacity-25 rounded-md">
+        <Icon name="carbon:logo-linkedin" class="text-xl"/>
+      </span>
+      <span class=" bg-blue-200 border-2 bg-opacity-30 p-0.5 border-blue-700 border-opacity-25 rounded-md">
+        <Icon name="carbon:logo-github" class="text-xl "/>
+      </span>
+      <span class=" bg-blue-200 border-2 bg-opacity-35 p-0.5 border-blue-700 border-opacity-25 rounded-md">
+        <Icon name="carbon:logo-x" class="text-xl"/>
+      </span>
+      <span class=" bg-blue-200 border-2 bg-opacity-30 p-0.5 border-blue-700 border-opacity-25 rounded-md">
+        <Icon name="carbon:email" class="text-xl "/>
+      </span>
+    </div>
+  </section>
+</div>
+

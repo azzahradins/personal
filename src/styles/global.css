@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Open Sans", "sans-serif";
+}
+
+p, span {
+  color: #4682A9;
+}
+
+body {
+  background-color: #FBF9F1;
+}
+
+@layer components {
+  .glass {
+    @apply bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-5 border border-slate-500 border-opacity-10 p-4 rounded-lg shadow-sm
+  }
+}
