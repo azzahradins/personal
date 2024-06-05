@@ -13,6 +13,7 @@ jobs:
 
     runs-on: ubuntu-latest
     permissions:
+      
       contents: read
       packages: write
       # This is used to complete the identity challenge
@@ -37,7 +38,7 @@ jobs:
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
-          password: ${{ secrets.GHCR_PAT }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       # Extract metadata (tags, labels) for Docker
       # https://github.com/docker/metadata-action
