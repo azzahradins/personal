@@ -1,5 +1,6 @@
 # Changelogs:
 
+- :dizzy: build astro using docker even though this project is still unfinished yet (hehe)
 - :iphone: create responsive design
 - :computer: create landing pages
 - :question: generate initial project code
